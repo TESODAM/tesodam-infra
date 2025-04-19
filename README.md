@@ -1,6 +1,6 @@
 # 🏗️ Infra Monorepo for Tesodam
 
-This repository contains all infrastructure tooling configurations for the **production environment** of the Lefler platform. It includes deployment manifests, container builds, Helm configurations, and GitHub Actions workflows for continuous delivery.
+This repository contains all infrastructure tooling configurations for the **production environment** of the Tesodam platform. It includes deployment manifests, container builds, Helm configurations, and GitHub Actions workflows for continuous delivery.
 
 ## 📁 Repository Structure
 
