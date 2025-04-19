@@ -4,6 +4,7 @@ This repository contains all infrastructure tooling configurations for the **pro
 
 ## 📁 Repository Structure
 
+```
 tesodam-infra/
 ├── .github/
 │   └── workflows/
@@ -20,11 +21,12 @@ tesodam-infra/
 │   └── helm/
 │       └── values.yaml
 └── ...
+```
 
 
 ## 🚀 Tools Managed
 
-- [x] HashiCorp Vault
+- [ ] HashiCorp Vault
 - [ ] Apache Kafka *(coming soon)*
 - [ ] Redis Streams *(coming soon)*
 - [ ] KeyDB *(coming soon)*
@@ -60,10 +62,10 @@ Eg: If you only update Vault, only Vault's build and deployment are triggered.
 
 This repo is built to deploy infrastructure tools to **any Kubernetes cluster**, regardless of where it's hosted:
 
-- ✅ AWS EKS
-- ✅ Google Cloud GKE
-- ✅ Azure AKS
-- ✅ Self-hosted clusters (e.g., k3s, k0s, bare metal)
+- ✅ *AWS EKS* - ArgoCD Server, HashiCorp Vault
+- ✅ *Google Cloud GKE*
+- ✅ *Azure AKS*
+- ✅ *Self-hosted clusters* (e.g., k3s, k0s, bare metal)
 
 Cluster-specific overrides (like node selectors or storage classes) can be defined under `environments/prod/<tool>/`.
 
